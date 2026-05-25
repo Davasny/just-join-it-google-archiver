@@ -1,0 +1,30 @@
+{
+  "name": "justjoin-archive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run",
+    "build": "vite build",
+    "clasp:pull": "clasp pull",
+    "clasp:deploy": "clasp push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.2",
+  "devDependencies": {
+    "@biomejs/biome": "2.4.15",
+    "@google/clasp": "3.3.0",
+    "@types/google-apps-script": "2.0.9",
+    "@types/node": "25.9.1",
+    "date-fns": "4.3.0",
+    "typescript": "6.0.3",
+    "vite": "8.0.14",
+    "vitest": "4.1.7",
+    "zod": "4.4.3"
+  },
+  "dependencies": {
+    "wretch": "3.0.8"
+  }
+}
