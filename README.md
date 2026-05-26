@@ -14,7 +14,10 @@ pnpm install
 clasp login
 ```
 
-3. Create google sheet
+3. Create google sheet with name containing justjoin.it categories in square brackets, e.g.
+   `justjoin.it [frontend,backend]`.
+
+3.1 Get Apps Script ID:
 
 Go to Extension -> Apps Script -> Settings -> Copy script ID
 

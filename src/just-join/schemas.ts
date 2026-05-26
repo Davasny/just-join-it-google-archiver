@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-const jjCategorySchema = z.enum([
+export const jjCategorySchema = z.enum([
   "data",
   "java",
   "other",

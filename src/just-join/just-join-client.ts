@@ -37,7 +37,9 @@ export class JustJoinClient {
     let cursor = 0;
 
     while (keepGoing) {
-      console.log(`Fetching justjoin.it offers at cursor: ${cursor}`);
+      console.log(
+        `Fetching justjoin.it offers in ${category} at cursor: ${cursor}`,
+      );
 
       const response = await wretch()
         .fetchPolyfill(this.fetchPolyfill)
